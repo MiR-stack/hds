@@ -1,0 +1,33 @@
+/*=============================================
+=            media query            =
+=============================================*/
+
+@mixin desktop {
+  @media (min-widht: map-get($breakpoints,"xl")) {
+    @content;
+  }
+}
+@mixin tablet {
+  @media (min-widht: map-get($breakpoints,"lg")) {
+    @content;
+  }
+}
+@mixin mobile {
+  @media (min-widht: map-get($breakpoints,"md")) {
+    @content;
+  }
+}
+
+/*=====  End of media query  ======*/
+
+@mixin padding($space) {
+  padding: map-get($spacing, $space);
+}
+
+@mixin margin($space) {
+  margin: map-get($spacing, $space);
+}
+
+@mixin shadow($key) {
+  padding: map-get($shadows, $key);
+}

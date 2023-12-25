@@ -1,0 +1,85 @@
+@import "../foundation/all";
+
+.btn {
+  height: 48px;
+  border: none;
+  outline: none;
+  color: $btn-text;
+  font-family: $body-font-family;
+  padding: map-get($spacing, "xs") map-get($spacing, "md");
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  gap: map-get($spacing, "xxs");
+  cursor: pointer;
+}
+
+.btn-primary {
+  color: $btn-primary-text;
+  background: $btn-primary;
+  &:hover {
+    background: $btn-primary-hover;
+  }
+  &:active {
+    background: $btn-primary-active;
+  }
+  &:focus {
+    border: 1px double $btn-primary;
+  }
+}
+
+.btn-secondary {
+  color: $btn-secondary-text;
+  background: $btn-secondary;
+  &:hover {
+    background: $btn-secondary-hover;
+  }
+  &:active {
+    background: $btn-secondary-active;
+  }
+  &:focus {
+    border: 1px double $btn-secondary;
+  }
+}
+
+.btn-danger {
+  color: $btn-danger-text;
+  background: $btn-danger;
+  &:hover {
+    background: $btn-danger-hover;
+  }
+  &:active {
+    background: $btn-danger-active;
+  }
+  &:focus {
+    border: 1px double $btn-danger;
+  }
+}
+
+.btn-ghost {
+  color: $btn-ghost-text;
+  &:hover {
+    background: $btn-ghost-hover;
+  }
+  &:active {
+    background: $btn-ghost-active;
+  }
+  &:focus {
+    border: 1px double $btn-ghost-border;
+  }
+}
+
+.btn-ghost-disabled {
+  color: $btn-ghost-disable-text;
+}
+
+.icon-button {
+  height: 48px;
+  width: 48px;
+  font-size: 16px;
+}
+
+.btn-disabled {
+  background: $btn-disable;
+  color: $btn-disable-text;
+}

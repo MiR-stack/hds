@@ -1,0 +1,86 @@
+/*=============================================
+=            colors            =
+=============================================*/
+
+/*=============================================
+=            global            =
+=============================================*/
+
+$page-bg-default: var(--hds-page-bg-default, $white);
+$page-bg-secondary: var(--hds-page-bg-secondary, $gray-10);
+$page-bg-tertiary: var(--hds-page-bg-tertiary, $gray-20);
+$page-text: var(--hds-page-text, $gray-100);
+
+/*=====  End of global  ======*/
+
+/*=============================================
+=            text            =
+=============================================*/
+
+$text-placeholder: var(--hds-text-placeholder, $gray-70);
+$text-muted: var(--hds-text-muted, $gray-50);
+$text-help: var(--hds-text-help, $gray-100);
+
+/*=====  End of text  ======*/
+
+/*=============================================
+=            buttons            =
+=============================================*/
+
+/* primary */
+$btn-primary-text: var(--hds-btn-primary-text, $white);
+$btn-primary: var(--hds-btn-primary, $blue-60);
+$btn-primary-hover: var(--hds-btn-primary-hover, $blue-70);
+$btn-primary-active: var(--hds-btn-primary-active, $blue-80);
+
+/* secondary */
+$btn-secondary-text: var(--hds-btn-secondary-text, $white);
+$btn-secondary: var(--hds-btn-secondary, $gray-80);
+$btn-secondary-hover: var(--hds-btn-secondary-hover, $gray-80-hover);
+$btn-secondary-active: var(--hds-btn-secondary-active, $gray-100);
+
+/* danger */
+
+$btn-danger-text: var(--hds-btn-danger-text, $white);
+$btn-danger: var(--hds-btn-danger, $red-60);
+$btn-danger-hover: var(--hds-btn-danger-hover, $red-60-hover);
+$btn-danger-active: var(--hds-btn-danger-active, $red-80);
+
+/* ghost */
+
+$btn-ghost-text: var(--hds-btn-ghost-text, $blue-70);
+$btn-ghost-hover: var(--hds-btn-ghost-hover, $blue-10);
+$btn-ghost-active: var(--hds-btn-ghost-active, $blue-20);
+$btn-ghost-border: var(--hds-btn-ghost-border, $blue-60);
+$btn-ghost-disable-text: var(--hds-btn-ghost-disable-text, $gray-50);
+
+/* disable button */
+
+$btn-disable: var(--hds-btn-disable, $gray-30);
+$btn-disable-text: var(--hds-btn-disable-text, $gray-50);
+
+/* utils */
+
+$btn-text: var(--hds-btn-text, $gray-100);
+$btn-title: var(--hds-btn-title, $gray-100);
+
+/*=====  End of buttons  ======*/
+
+/*=============================================
+=            borders            =
+=============================================*/
+
+$border-md-contrast: var(--hds-border-md-contrast, $gray-50);
+$border-high-contrast: var(--hds-border-high-contrast, $gray-100);
+
+/*=====  End of borders  ======*/
+
+/*=============================================
+=            links            =
+=============================================*/
+
+$link-bg: var(--hds-link-bg, $blue-40);
+
+/*=====  End of links  ======*/
+
+/*=====  End of colors  ======*/

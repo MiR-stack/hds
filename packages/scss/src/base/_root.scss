@@ -1,0 +1,74 @@
+:root {
+  /* typography */
+
+  --hds-body-font-size-p: #{$fs-sm};
+  --hds-body-font-size-lp: #{$fs-base};
+
+  --hds-body-line-height-p: #{$lh-md};
+  --hds-body-line-height-sp: #{$lh-sm};
+  --hds-body-line-height-lp: #{$lh-lg};
+
+  --hds-h1-font-size: #{$h-1};
+  --hds-h2-font-size: #{$h-2};
+  --hds-h3-font-size: #{$h-3};
+  --hds-h4-font-size: #{$h-4};
+  --hds-h5-font-size: #{$h-5};
+  --hds-h6-font-size: #{$h-6};
+
+  --hds-h1-line-height: #{$lh-h1};
+  --hds-h2-line-height: #{$lh-h2};
+  --hds-h3-line-height: #{$lh-h3};
+  --hds-h4-line-height: #{$lh-h4};
+  --hds-h5-line-height: #{$lh-h5};
+  --hds-h6-line-height: #{$lh-h6};
+
+  --hds-h1-line-weight: #{$fw-light};
+  --hds-h2-line-weight: #{$fw-light};
+  --hds-h3-line-weight: #{$fw-regular};
+  --hds-h4-line-weight: #{$fw-regular};
+  --hds-h5-line-weight: #{$fw-regular};
+  --hds-h6-line-weight: #{$fw-semi-bold};
+
+  /* colors */
+
+  --hds-page-bg-default: #{$white};
+  --hds-page-bg-secondary: #{$gray-10};
+  --hds-page-bg-tertiary: #{$gray-20};
+  --hds-page-text: #{$gray-100};
+
+  --hds-text-placeholder: #{$gray-70};
+  --hds-text-muted: #{$gray-50};
+  --hds-text-help: #{$gray-100};
+
+  --hds-btn-primary-text: #{$white};
+  --hds-btn-primary: #{$blue-60};
+  --hds-btn-primary-hover: #{$blue-70};
+  --hds-btn-primary-active: #{$blue-80};
+
+  --hds-btn-secondary-text: #{$white};
+  --hds-btn-secondary: #{$gray-80};
+  --hds-btn-secondary-hover: #{$gray-80-hover};
+  --hds-btn-secondary-active: #{$gray-100};
+
+  --hds-btn-danger-text: #{$white};
+  --hds-btn-danger: #{$red-60};
+  --hds-btn-danger-hover: #{$red-60-hover};
+  --hds-btn-danger-active: #{$red-80};
+
+  --hds-btn-ghost-text: #{$blue-70};
+  --hds-btn-ghost-border: #{$blue-60};
+  --hds-btn-ghost-hover: #{$blue-10};
+  --hds-btn-ghost-active: #{$blue-20};
+  --hds-btn-ghost-disable-text: #{$gray-50};
+
+  --hds-btn-disable: #{$gray-30};
+  --hds-btn-disable-text: #{$gray-50};
+
+  --hds-btn-text: #{$white};
+  --hds-btn-title: #{$gray-100};
+
+  --hds-border-md-contrast: #{$gray-50};
+  --hds-border-high-contrast: #{$gray-100};
+
+  --hds-link-bg: #{$blue-40};
+}

@@ -1,0 +1,444 @@
+@charset "UTF-8";
+/* table of contents */
+/**
+ *
+ * foundation
+ * base
+ *
+ */
+/*=============================================
+ =            foundation            =
+ =============================================*/
+/*=============================================
+=            variables            =
+=============================================*/
+/**
+ *
+ * Table of Contents
+ * 
+ * COLORS
+ * brand colors ................. These colors will be used most of the time
+ * neutral colors ............... white and blacks grey etc
+ * utility colors ............... other colors to represent states
+ *
+ * TYPOGRAPHY
+ * font families................. font families used in design system
+ * font weight................... font weights
+ * font sizes.................... font sizes
+ * headings sizes ............... font sizes for page headings
+ *
+ * BREAKPOINTS
+ * breakpoints................... global break points for pages
+ *
+ * SPACINGS
+ * spacings...................... global spacings for pages
+ *
+ */
+/*=============================================
+ =            Colors            =
+ =============================================*/
+/* gray */
+/* blue */
+/* green */
+/* red */
+/* yellow */
+/* purple */
+/*=====  End of Colors  ======*/
+/*=============================================
+=            Typography            =
+=============================================*/
+/* font families */
+/* font weights */
+/* font sizes */
+/* heading font sizes */
+/* hedings line heights */
+/* line hights */
+/*=====  End of Typography  ======*/
+/*=============================================
+=            breakpoints            =
+=============================================*/
+/*=====  End of breakpoints  ======*/
+/*=============================================
+=            Spacing            =
+=============================================*/
+/*=====  End of Spacing  ======*/
+/*=============================================
+=            shadows            =
+=============================================*/
+/*=====  End of shadows  ======*/
+/*=====  End of variables  ======*/
+/*=============================================
+=            colors            =
+=============================================*/
+/*=============================================
+=            global            =
+=============================================*/
+/*=====  End of global  ======*/
+/*=============================================
+=            text            =
+=============================================*/
+/*=====  End of text  ======*/
+/*=============================================
+=            buttons            =
+=============================================*/
+/* primary */
+/* secondary */
+/* danger */
+/* ghost */
+/* disable button */
+/* utils */
+/*=====  End of buttons  ======*/
+/*=============================================
+=            borders            =
+=============================================*/
+/*=====  End of borders  ======*/
+/*=============================================
+=            links            =
+=============================================*/
+/*=====  End of links  ======*/
+/*=====  End of colors  ======*/
+/**
+ *
+ * table of contents
+ *
+ */
+/*=============================================
+=            font-families           =
+=============================================*/
+/*=====  End of font-family  ======*/
+/*=============================================
+ =            body  font sizes          =
+ =============================================*/
+/*=====  End of body font sizes  ======*/
+/*=============================================
+=            body line heights            =
+=============================================*/
+/**
+ *
+ * p...........paragraph
+ * sp..........short paragraph
+ * lp..........long paragraph
+ *
+ */
+/*=====  End of body line heights  ======*/
+/*=============================================
+=            heading font sizes            =
+=============================================*/
+/*=====  End of heading font sizes  ======*/
+/*=============================================
+=            heading line height            =
+=============================================*/
+/*=====  End of heading line height  ======*/
+/*=============================================
+=            heading line weight            =
+=============================================*/
+/*=====  End of heading line weight  ======*/
+/*=============================================
+=            utils            =
+=============================================*/
+/*=====  End of utils  ======*/
+/*=============================================
+=            media query            =
+=============================================*/
+/*=====  End of media query  ======*/
+/*=====  End of foundation  ======*/
+/*=============================================
+=            base            =
+=============================================*/
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+nav,
+section,
+summary {
+  display: block;
+}
+
+audio,
+canvas,
+video {
+  display: inline-block;
+}
+
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+[hidden],
+template {
+  display: none;
+}
+
+html {
+  background: #fff;
+  color: #000;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+html,
+button,
+input,
+select,
+textarea {
+  font-family: sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+a {
+  background: transparent;
+}
+a:focus {
+  outline: thin dotted;
+}
+a:hover, a:active {
+  outline: 0;
+}
+
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+h2 {
+  font-size: 1.5em;
+  margin: 0.83em 0;
+}
+
+h3 {
+  font-size: 1.17em;
+  margin: 1em 0;
+}
+
+h4 {
+  font-size: 1em;
+  margin: 1.33em 0;
+}
+
+h5 {
+  font-size: 0.83em;
+  margin: 1.67em 0;
+}
+
+h6 {
+  font-size: 0.75em;
+  margin: 2.33em 0;
+}
+
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+
+b,
+strong {
+  font-weight: bold;
+}
+
+dfn {
+  font-style: italic;
+}
+
+mark {
+  background: #ff0;
+  color: #000;
+}
+
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, serif;
+  font-size: 1em;
+}
+
+pre {
+  white-space: pre;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+q {
+  quotes: "“" "”" "‘" "’";
+}
+
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+small {
+  font-size: 80%;
+}
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sup {
+  top: -0.5em;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+img {
+  border: 0;
+}
+
+svg:not(:root) {
+  overflow: hidden;
+}
+
+figure {
+  margin: 0;
+}
+
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+
+legend {
+  border: 0;
+  padding: 0;
+  white-space: normal;
+}
+
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
+  font-size: 100%;
+  margin: 0;
+  vertical-align: baseline;
+}
+
+button,
+input {
+  line-height: normal;
+}
+
+button,
+select {
+  text-transform: none;
+}
+
+button,
+html input[type=button],
+input[type=reset],
+input[type=submit] {
+  -webkit-appearance: button;
+  cursor: pointer;
+}
+
+button[disabled],
+input[disabled] {
+  cursor: default;
+}
+
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+textarea {
+  overflow: auto;
+  vertical-align: top;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+input[type=search] {
+  -webkit-appearance: textfield;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+}
+input[type=search]::-webkit-search-cancel-button, input[type=search]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+input[type=checkbox], input[type=radio] {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+:root {
+  /* typography */
+  --hds-body-font-size-p: 0.875rem;
+  --hds-body-font-size-lp: 1rem;
+  --hds-body-line-height-p: 1.375rem;
+  --hds-body-line-height-sp: 1.25rem;
+  --hds-body-line-height-lp: 1.5rem;
+  --hds-h1-font-size: 3.375rem;
+  --hds-h2-font-size: 2.625rem;
+  --hds-h3-font-size: 2rem;
+  --hds-h4-font-size: 1.75rem;
+  --hds-h5-font-size: 1.25rem;
+  --hds-h6-font-size: 1;
+  --hds-h1-line-height: 4rem;
+  --hds-h2-line-height: 3.125rem;
+  --hds-h3-line-height: 2.5rem;
+  --hds-h4-line-height: 2.25rem;
+  --hds-h5-line-height: 1.625rem;
+  --hds-h6-line-height: 1.375rem;
+  --hds-h1-line-weight: 300;
+  --hds-h2-line-weight: 300;
+  --hds-h3-line-weight: 400;
+  --hds-h4-line-weight: 400;
+  --hds-h5-line-weight: 400;
+  --hds-h6-line-weight: 600;
+  /* colors */
+  --hds-page-bg-default: #ffffff;
+  --hds-page-bg-secondary: #f4f4f4;
+  --hds-page-bg-tertiary: #e0e0e0;
+  --hds-page-text: #161616;
+  --hds-text-placeholder: #525252;
+  --hds-text-muted: #8d8d8d;
+  --hds-text-help: #161616;
+  --hds-btn-primary-text: #ffffff;
+  --hds-btn-primary: #0f62fe;
+  --hds-btn-primary-hover: #054ada;
+  --hds-btn-primary-active: #002d9c;
+  --hds-btn-secondary-text: #ffffff;
+  --hds-btn-secondary: #393939;
+  --hds-btn-secondary-hover: #4c4c4c;
+  --hds-btn-secondary-active: #161616;
+  --hds-btn-danger-text: #ffffff;
+  --hds-btn-danger: #da1e28;
+  --hds-btn-danger-hover: #ba1b23;
+  --hds-btn-danger-active: #750e13;
+  --hds-btn-ghost-text: #054ada;
+  --hds-btn-ghost-border: #0f62fe;
+  --hds-btn-ghost-hover: #ecf2ff;
+  --hds-btn-ghost-active: #d0e2ff;
+  --hds-btn-ghost-disable-text: #8d8d8d;
+  --hds-btn-disable: #c6c6c6;
+  --hds-btn-disable-text: #8d8d8d;
+  --hds-btn-text: #ffffff;
+  --hds-btn-title: #161616;
+  --hds-border-md-contrast: #8d8d8d;
+  --hds-border-high-contrast: #161616;
+  --hds-link-bg: #78a9ff;
+}
+
+/*=====  End of base  ======*/

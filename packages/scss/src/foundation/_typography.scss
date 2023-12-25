@@ -1,0 +1,86 @@
+/**
+ *
+ * table of contents
+ *
+ */
+
+/*=============================================
+=            font-families           =
+=============================================*/
+
+$body-font-family: var(--hds-body-font-family, $IBM-plex-sans);
+$heading-font-family: var(--hds-heading-font-family, $barlow);
+
+/*=====  End of font-family  ======*/
+
+/*=============================================
+ =            body  font sizes          =
+ =============================================*/
+
+$body-font-size-p: var(--hds-body-font-size-p, $fs-sm);
+$body-font-size-lp: var(--hds-body-font-size-lp, $fs-base);
+
+/*=====  End of body font sizes  ======*/
+
+/*=============================================
+=            body line heights            =
+=============================================*/
+
+/**
+ *
+ * p...........paragraph
+ * sp..........short paragraph
+ * lp..........long paragraph
+ *
+ */
+
+$body-line-height-p: var(--hds-body-line-height-p, $lh-md);
+$body-line-height-sp: var(--hds-body-line-height-sp, $lh-sm);
+$body-line-height-lp: var(--hds-body-line-height-lp, $lh-lg);
+
+/*=====  End of body line heights  ======*/
+
+/*=============================================
+=            heading font sizes            =
+=============================================*/
+
+$h-1-font-size: var(--hds-h1-font-size, $h-1);
+$h-2-font-size: var(--hds-h2-font-size, $h-2);
+$h-3-font-size: var(--hds-h3-font-size, $h-3);
+$h-4-font-size: var(--hds-h4-font-size, $h-4);
+$h-5-font-size: var(--hds-h5-font-size, $h-5);
+$h-6-font-size: var(--hds-h6-font-size, $h-6);
+
+/*=====  End of heading font sizes  ======*/
+
+/*=============================================
+=            heading line height            =
+=============================================*/
+
+$h-1-line-height: var(--hds-h1-line-height, $lh-h1);
+$h-2-line-height: var(--hds-h2-line-height, $lh-h2);
+$h-3-line-height: var(--hds-h3-line-height, $lh-h3);
+$h-4-line-height: var(--hds-h4-line-height, $lh-h4);
+$h-5-line-height: var(--hds-h5-line-height, $lh-h5);
+$h-6-line-height: var(--hds-h6-line-height, $lh-h6);
+
+/*=====  End of heading line height  ======*/
+
+/*=============================================
+=            heading line weight            =
+=============================================*/
+
+$h-1-line-weight: var(--hds-h1-line-weight, $fw-light);
+$h-2-line-weight: var(--hds-h2-line-weight, $fw-light);
+$h-3-line-weight: var(--hds-h3-line-weight, $fw-regular);
+$h-4-line-weight: var(--hds-h4-line-weight, $fw-regular);
+$h-5-line-weight: var(--hds-h5-line-weight, $fw-regular);
+$h-6-line-weight: var(--hds-h6-line-weight, $fw-semi-bold);
+
+/*=====  End of heading line weight  ======*/
+
+/*=============================================
+=            utils            =
+=============================================*/
+
+/*=====  End of utils  ======*/
