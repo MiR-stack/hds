@@ -1,0 +1,32 @@
+@import "../foundation/all";
+
+.appearance {
+  background: url("data:image/svg+xml,#{ map-get($icons, 'toggle-down')}")
+    no-repeat;
+  background-position: calc(100% - 0.75rem) center !important;
+  -moz-appearance: none !important;
+  -webkit-appearance: none !important;
+  appearance: none !important;
+}
+
+$appearance-icons: (
+  toggle-down: "toggle-down",
+  toggle-up: "toggle-up",
+  success: "checkmark",
+);
+
+$appearance-positions: (
+  right-center: calc(100% - 0.75rem) center,
+);
+
+@each $name, $icon in $appearance-icons {
+  .appr-icon-#{$name} {
+    background: url("data:image/svg+xml,#{map-get($icons, $icon)} ") no-repeat;
+  }
+}
+
+@each $position, $value in $appearance-positions {
+  .appr-position-#{$position} {
+    background-position: #{$value} !important;
+  }
+}

@@ -41,7 +41,7 @@ const getAllComponents = (types) => {
 };
 
 // define which components we need
-const types = ["atoms"];
+const types = ["atoms", "molicules"];
 
 // compile all components
 getAllComponents(types).forEach((component) =>

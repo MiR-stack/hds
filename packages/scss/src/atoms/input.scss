@@ -1,0 +1,23 @@
+@import "../foundation/all";
+
+.hds-input {
+  @include input;
+
+  &_error {
+    border: 2px solid $input-border-error;
+  }
+
+  &_disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+
+    &:hover {
+      background-color: $input-bg !important;
+    }
+
+    &:focus {
+      outline: none;
+      background-color: $input-bg !important;
+    }
+  }
+}

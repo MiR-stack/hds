@@ -20,6 +20,8 @@ $page-text: var(--hds-page-text, $gray-100);
 $text-placeholder: var(--hds-text-placeholder, $gray-70);
 $text-muted: var(--hds-text-muted, $gray-50);
 $text-help: var(--hds-text-help, $gray-100);
+$text-error: var(--hds-text-error, $red-60);
+$text-base: var(--hds-text-help, $gray-100);
 
 /*=====  End of text  ======*/
 
@@ -83,4 +85,21 @@ $link-bg: var(--hds-link-bg, $blue-40);
 
 /*=====  End of links  ======*/
 
-/*=====  End of colors  ======*/
+/*=============================================
+=            input            =
+=============================================*/
+
+/* background */
+
+$input-bg: var(--hds-input-bg, $gray-10);
+$input-bg-hover: var(--hds-input-bg-hover, $gray-20);
+$input-bg-focus: var(--hds-input-bg-focus, $gray-20);
+
+/* borders */
+
+$input-border: var(--hds-input-border, $gray-50);
+$input-border-error: var(--hds-input-border-error, $red-60);
+
+$input-outline: var(--hds-input-outline, $blue-60);
+
+/*=====  End of input  ======*/

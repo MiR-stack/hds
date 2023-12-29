@@ -66,6 +66,10 @@
 =            shadows            =
 =============================================*/
 /*=====  End of shadows  ======*/
+/*=============================================
+=            icons            =
+=============================================*/
+/*=====  End of icons  ======*/
 /*=====  End of variables  ======*/
 /*=============================================
 =            colors            =
@@ -96,7 +100,12 @@
 =            links            =
 =============================================*/
 /*=====  End of links  ======*/
-/*=====  End of colors  ======*/
+/*=============================================
+=            input            =
+=============================================*/
+/* background */
+/* borders */
+/*=====  End of input  ======*/
 /**
  *
  * table of contents
@@ -138,9 +147,107 @@
 =============================================*/
 /*=====  End of utils  ======*/
 /*=============================================
+=            variables            =
+=============================================*/
+/**
+ *
+ * Table of Contents
+ * 
+ * COLORS
+ * brand colors ................. These colors will be used most of the time
+ * neutral colors ............... white and blacks grey etc
+ * utility colors ............... other colors to represent states
+ *
+ * TYPOGRAPHY
+ * font families................. font families used in design system
+ * font weight................... font weights
+ * font sizes.................... font sizes
+ * headings sizes ............... font sizes for page headings
+ *
+ * BREAKPOINTS
+ * breakpoints................... global break points for pages
+ *
+ * SPACINGS
+ * spacings...................... global spacings for pages
+ *
+ */
+/*=============================================
+ =            Colors            =
+ =============================================*/
+/* gray */
+/* blue */
+/* green */
+/* red */
+/* yellow */
+/* purple */
+/*=====  End of Colors  ======*/
+/*=============================================
+=            Typography            =
+=============================================*/
+/* font families */
+/* font weights */
+/* font sizes */
+/* heading font sizes */
+/* hedings line heights */
+/* line hights */
+/*=====  End of Typography  ======*/
+/*=============================================
+=            breakpoints            =
+=============================================*/
+/*=====  End of breakpoints  ======*/
+/*=============================================
+=            Spacing            =
+=============================================*/
+/*=====  End of Spacing  ======*/
+/*=============================================
+=            shadows            =
+=============================================*/
+/*=====  End of shadows  ======*/
+/*=============================================
+=            icons            =
+=============================================*/
+/*=====  End of icons  ======*/
+/*=====  End of variables  ======*/
+/*=============================================
+=            colors            =
+=============================================*/
+/*=============================================
+=            global            =
+=============================================*/
+/*=====  End of global  ======*/
+/*=============================================
+=            text            =
+=============================================*/
+/*=====  End of text  ======*/
+/*=============================================
+=            buttons            =
+=============================================*/
+/* primary */
+/* secondary */
+/* danger */
+/* ghost */
+/* disable button */
+/* utils */
+/*=====  End of buttons  ======*/
+/*=============================================
+=            borders            =
+=============================================*/
+/*=====  End of borders  ======*/
+/*=============================================
+=            links            =
+=============================================*/
+/*=====  End of links  ======*/
+/*=============================================
+=            input            =
+=============================================*/
+/* background */
+/* borders */
+/*=====  End of input  ======*/
+/*=============================================
 =            media query            =
 =============================================*/
 /*=====  End of media query  ======*/
+/* input */
 /*=====  End of foundation  ======*/
 /*=============================================
 =            base            =
@@ -415,6 +522,8 @@ input[type=checkbox], input[type=radio] {
   --hds-text-placeholder: #525252;
   --hds-text-muted: #8d8d8d;
   --hds-text-help: #161616;
+  --hds-text-base: #161616;
+  --hds-text-error: #da1e28;
   --hds-btn-primary-text: #ffffff;
   --hds-btn-primary: #0f62fe;
   --hds-btn-primary-hover: #054ada;
@@ -439,6 +548,13 @@ input[type=checkbox], input[type=radio] {
   --hds-border-md-contrast: #8d8d8d;
   --hds-border-high-contrast: #161616;
   --hds-link-bg: #78a9ff;
+  /* inputs */
+  --hds-input-bg: #f4f4f4;
+  --hds-input-bg-hover: #e0e0e0;
+  --hds-input-bg-focus: #e0e0e0;
+  --hds-input-border: #8d8d8d;
+  --hds-input-border-error: #da1e28;
+  --hds-input-outline: #0f62fe;
 }
 
 /*=====  End of base  ======*/

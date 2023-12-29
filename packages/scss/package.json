@@ -6,9 +6,11 @@
     "lib": "lib"
   },
   "scripts": {
-    "build": "node ./src/scripts/build.js"
+    "build": "node ./src/scripts/build.js",
+    "dev": "nodemon --watch src --exec yarn build -e scss"
   },
   "devDependencies": {
+    "nodemon": "^3.0.2",
     "sass": "^1.69.5"
   },
   "keywords": [],

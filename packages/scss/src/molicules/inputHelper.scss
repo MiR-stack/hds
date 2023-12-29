@@ -1,0 +1,14 @@
+@import "../foundation/all";
+
+.hds-inputHelper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: map-get($spacing, "xxs");
+  width: 100%;
+
+  &_disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+}

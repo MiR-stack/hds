@@ -1,0 +1,23 @@
+@import "../foundation/all";
+
+.hds-text-label {
+  font-size: $fs-xs;
+  color: $text-muted;
+  margin: 0;
+  &_multiple {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+  }
+}
+
+.hds-text-helper {
+  font-size: $fs-xs;
+  color: $text-help;
+  margin: 0;
+}
+
+.hds-text-error {
+  color: $text-error;
+}

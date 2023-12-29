@@ -1,0 +1,16 @@
+@import "../foundation/all";
+
+@each $size, $value in $spacing {
+  .hds-width-#{$size} {
+    width: $value;
+  }
+  .hds-height-#{$size} {
+    height: $value;
+  }
+}
+
+@each $size, $value in $fs {
+  .hds-fs-#{$size} {
+    font-size: $value !important;
+  }
+}

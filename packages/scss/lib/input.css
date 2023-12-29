@@ -1,0 +1,269 @@
+/*=============================================
+=            variables            =
+=============================================*/
+/**
+ *
+ * Table of Contents
+ * 
+ * COLORS
+ * brand colors ................. These colors will be used most of the time
+ * neutral colors ............... white and blacks grey etc
+ * utility colors ............... other colors to represent states
+ *
+ * TYPOGRAPHY
+ * font families................. font families used in design system
+ * font weight................... font weights
+ * font sizes.................... font sizes
+ * headings sizes ............... font sizes for page headings
+ *
+ * BREAKPOINTS
+ * breakpoints................... global break points for pages
+ *
+ * SPACINGS
+ * spacings...................... global spacings for pages
+ *
+ */
+/*=============================================
+ =            Colors            =
+ =============================================*/
+/* gray */
+/* blue */
+/* green */
+/* red */
+/* yellow */
+/* purple */
+/*=====  End of Colors  ======*/
+/*=============================================
+=            Typography            =
+=============================================*/
+/* font families */
+/* font weights */
+/* font sizes */
+/* heading font sizes */
+/* hedings line heights */
+/* line hights */
+/*=====  End of Typography  ======*/
+/*=============================================
+=            breakpoints            =
+=============================================*/
+/*=====  End of breakpoints  ======*/
+/*=============================================
+=            Spacing            =
+=============================================*/
+/*=====  End of Spacing  ======*/
+/*=============================================
+=            shadows            =
+=============================================*/
+/*=====  End of shadows  ======*/
+/*=============================================
+=            icons            =
+=============================================*/
+/*=====  End of icons  ======*/
+/*=====  End of variables  ======*/
+/*=============================================
+=            colors            =
+=============================================*/
+/*=============================================
+=            global            =
+=============================================*/
+/*=====  End of global  ======*/
+/*=============================================
+=            text            =
+=============================================*/
+/*=====  End of text  ======*/
+/*=============================================
+=            buttons            =
+=============================================*/
+/* primary */
+/* secondary */
+/* danger */
+/* ghost */
+/* disable button */
+/* utils */
+/*=====  End of buttons  ======*/
+/*=============================================
+=            borders            =
+=============================================*/
+/*=====  End of borders  ======*/
+/*=============================================
+=            links            =
+=============================================*/
+/*=====  End of links  ======*/
+/*=============================================
+=            input            =
+=============================================*/
+/* background */
+/* borders */
+/*=====  End of input  ======*/
+/**
+ *
+ * table of contents
+ *
+ */
+/*=============================================
+=            font-families           =
+=============================================*/
+/*=====  End of font-family  ======*/
+/*=============================================
+ =            body  font sizes          =
+ =============================================*/
+/*=====  End of body font sizes  ======*/
+/*=============================================
+=            body line heights            =
+=============================================*/
+/**
+ *
+ * p...........paragraph
+ * sp..........short paragraph
+ * lp..........long paragraph
+ *
+ */
+/*=====  End of body line heights  ======*/
+/*=============================================
+=            heading font sizes            =
+=============================================*/
+/*=====  End of heading font sizes  ======*/
+/*=============================================
+=            heading line height            =
+=============================================*/
+/*=====  End of heading line height  ======*/
+/*=============================================
+=            heading line weight            =
+=============================================*/
+/*=====  End of heading line weight  ======*/
+/*=============================================
+=            utils            =
+=============================================*/
+/*=====  End of utils  ======*/
+/*=============================================
+=            variables            =
+=============================================*/
+/**
+ *
+ * Table of Contents
+ * 
+ * COLORS
+ * brand colors ................. These colors will be used most of the time
+ * neutral colors ............... white and blacks grey etc
+ * utility colors ............... other colors to represent states
+ *
+ * TYPOGRAPHY
+ * font families................. font families used in design system
+ * font weight................... font weights
+ * font sizes.................... font sizes
+ * headings sizes ............... font sizes for page headings
+ *
+ * BREAKPOINTS
+ * breakpoints................... global break points for pages
+ *
+ * SPACINGS
+ * spacings...................... global spacings for pages
+ *
+ */
+/*=============================================
+ =            Colors            =
+ =============================================*/
+/* gray */
+/* blue */
+/* green */
+/* red */
+/* yellow */
+/* purple */
+/*=====  End of Colors  ======*/
+/*=============================================
+=            Typography            =
+=============================================*/
+/* font families */
+/* font weights */
+/* font sizes */
+/* heading font sizes */
+/* hedings line heights */
+/* line hights */
+/*=====  End of Typography  ======*/
+/*=============================================
+=            breakpoints            =
+=============================================*/
+/*=====  End of breakpoints  ======*/
+/*=============================================
+=            Spacing            =
+=============================================*/
+/*=====  End of Spacing  ======*/
+/*=============================================
+=            shadows            =
+=============================================*/
+/*=====  End of shadows  ======*/
+/*=============================================
+=            icons            =
+=============================================*/
+/*=====  End of icons  ======*/
+/*=====  End of variables  ======*/
+/*=============================================
+=            colors            =
+=============================================*/
+/*=============================================
+=            global            =
+=============================================*/
+/*=====  End of global  ======*/
+/*=============================================
+=            text            =
+=============================================*/
+/*=====  End of text  ======*/
+/*=============================================
+=            buttons            =
+=============================================*/
+/* primary */
+/* secondary */
+/* danger */
+/* ghost */
+/* disable button */
+/* utils */
+/*=====  End of buttons  ======*/
+/*=============================================
+=            borders            =
+=============================================*/
+/*=====  End of borders  ======*/
+/*=============================================
+=            links            =
+=============================================*/
+/*=====  End of links  ======*/
+/*=============================================
+=            input            =
+=============================================*/
+/* background */
+/* borders */
+/*=====  End of input  ======*/
+/*=============================================
+=            media query            =
+=============================================*/
+/*=====  End of media query  ======*/
+/* input */
+.hds-input {
+  padding: 0.75rem;
+  width: 200px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid var(--hds-input-border, #8d8d8d);
+  background-color: var(--hds-input-bg, #f4f4f4) !important;
+}
+.hds-input:hover {
+  background-color: var(--hds-input-bg-hover, #e0e0e0) !important;
+}
+.hds-input:focus {
+  background-color: var(--hds-input-bg-focus, #e0e0e0) !important;
+  outline: 2px solid var(--hds-input-outline, #0f62fe);
+}
+.hds-input_error {
+  border: 2px solid var(--hds-input-border-error, #da1e28);
+}
+.hds-input_disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+.hds-input_disabled:hover {
+  background-color: var(--hds-input-bg, #f4f4f4) !important;
+}
+.hds-input_disabled:focus {
+  outline: none;
+  background-color: var(--hds-input-bg, #f4f4f4) !important;
+}

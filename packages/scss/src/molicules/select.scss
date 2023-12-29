@@ -1,0 +1,60 @@
+@import "../foundation/all";
+
+@mixin select_label {
+  @include input;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  outline: none;
+  font-size: inherit;
+}
+
+.hds-select {
+  position: relative;
+  font-size: map-get($fs, "sm");
+  width: 100%;
+
+  &-label {
+    @include select_label;
+    background-color: inherit !important;
+    border: none;
+
+    &_primary {
+      @include select_label;
+      background-color: $input-bg !important;
+      border-bottom: 1px solid $input-border;
+    }
+  }
+
+  &-options {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    padding: 0;
+    text-align: left;
+    margin: 0;
+    list-style: none;
+    width: 100%;
+    color: $text-muted;
+  }
+  &-option {
+    @include input;
+    border-bottom: 1px solid $input-bg-hover;
+    width: 100%;
+    box-sizing: border-box;
+
+    &:hover {
+      color: $text-base;
+    }
+
+    &:nth-last-child(-n + 1) {
+      border-bottom: none;
+    }
+
+    &_active {
+      background-color: $input-bg-hover !important;
+      color: $text-base;
+    }
+  }
+}

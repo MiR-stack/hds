@@ -1,7 +1,8 @@
+@import "./variables";
+@import "./colors";
 /*=============================================
 =            media query            =
 =============================================*/
-
 @mixin desktop {
   @media (min-widht: map-get($breakpoints,"xl")) {
     @content;
@@ -30,4 +31,25 @@
 
 @mixin shadow($key) {
   padding: map-get($shadows, $key);
+}
+
+/* input */
+
+@mixin input {
+  padding: map-get($spacing, "xs");
+  width: 200px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid $input-border;
+  background-color: $input-bg !important;
+
+  &:hover {
+    background-color: $input-bg-hover !important;
+  }
+
+  &:focus {
+    background-color: $input-bg-focus !important;
+    outline: 2px solid $input-outline;
+  }
 }

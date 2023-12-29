@@ -39,6 +39,8 @@
   --hds-text-placeholder: #{$gray-70};
   --hds-text-muted: #{$gray-50};
   --hds-text-help: #{$gray-100};
+  --hds-text-base: #{$gray-100};
+  --hds-text-error: #{$red-60};
 
   --hds-btn-primary-text: #{$white};
   --hds-btn-primary: #{$blue-60};
@@ -71,4 +73,14 @@
   --hds-border-high-contrast: #{$gray-100};
 
   --hds-link-bg: #{$blue-40};
+
+  /* inputs */
+  --hds-input-bg: #{$gray-10};
+  --hds-input-bg-hover: #{$gray-20};
+  --hds-input-bg-focus: #{$gray-20};
+
+  --hds-input-border: #{$gray-50};
+  --hds-input-border-error: #{$red-60};
+
+  --hds-input-outline: #{$blue-60};
 }
